@@ -42,7 +42,9 @@ df["salary"]=le.fit_transform(df["salary"])
 df.head()
 
 #assigning x and y array and displays them
-x=df[["satisfaction_level","last_evaluation","number_project","average_montly_hours","time_spend_company","Work_accident","promotion_last_5years","salary"]]
+x=df[["satisfaction_level","last_evaluation","number_project",
+"average_montly_hours","time_spend_company","Work_accident",
+"promotion_last_5years","salary"]]
 x.head()
 y=df["left"]
 y
